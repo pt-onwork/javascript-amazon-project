@@ -1,0 +1,4 @@
+data attrivute can be used eg. <button class="add-to-cart-button button-primary js-add-to-cart"
+        data-product-name="${product.name}"> 
+syntax --> it is just like an html attribute but starts with data-, kebeb case naming 
+now this data attribute of button can be accessed by button.dataset--> this returns a object with all data attributes and button.dataset.productName --> this returns that data attrbitue value--> this is written iincamel case
